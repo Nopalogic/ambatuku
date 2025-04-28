@@ -1,0 +1,47 @@
+# Backend
+ambatuku-v2-be/.phpunit.cache
+ambatuku-v2-be/node_modules
+ambatuku-v2-be/public/build
+ambatuku-v2-be/public/hot
+ambatuku-v2-be/public/storage
+ambatuku-v2-be/storage/*.key
+ambatuku-v2-be/vendor
+ambatuku-v2-be/.env
+ambatuku-v2-be/.env.backup
+ambatuku-v2-be/.env.production
+ambatuku-v2-be/.phpunit.result.cache
+ambatuku-v2-be/Homestead.json
+ambatuku-v2-be/Homestead.yaml
+ambatuku-v2-be/auth.json
+ambatuku-v2-be/npm-debug.log
+ambatuku-v2-be/yarn-error.log
+ambatuku-v2-be/.fleet
+ambatuku-v2-be/.idea
+ambatuku-v2-be/.vscode
+
+# Frontend
+# Logs
+ambatuku-v2-fe/logs
+ambatuku-v2-fe/*.log
+ambatuku-v2-fe/npm-debug.log*
+ambatuku-v2-fe/yarn-debug.log*
+ambatuku-v2-fe/yarn-error.log*
+ambatuku-v2-fe/pnpm-debug.log*
+ambatuku-v2-fe/lerna-debug.log*
+
+ambatuku-v2-fe/node_modules
+ambatuku-v2-fe/dist
+ambatuku-v2-fe/dist-ssr
+ambatuku-v2-fe/*.local
+ambatuku-v2-fe/.eng
+
+# Editor directories and files
+ambatuku-v2-fe/.vscode/*
+ambatuku-v2-fe/!.vscode/extensions.json
+ambatuku-v2-fe/.idea
+ambatuku-v2-fe/.DS_Store
+ambatuku-v2-fe/*.suo
+ambatuku-v2-fe/*.ntvs*
+ambatuku-v2-fe/*.njsproj
+ambatuku-v2-fe/*.sln
+ambatuku-v2-fe/*.sw?
