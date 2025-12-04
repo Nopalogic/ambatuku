@@ -1,0 +1,1 @@
+export const LOCAL_STORAGE_BETTER_AUTH_TOKEN_KEY = 'ambatuku-better-auth-token'
