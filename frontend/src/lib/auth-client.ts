@@ -1,3 +1,4 @@
+import { adminClient } from "better-auth/client/plugins";
 import { createAuthClient } from "better-auth/react";
 
 import { LOCAL_STORAGE_BETTER_AUTH_TOKEN_KEY } from "@/features/auth/constants/local-storage";
@@ -15,4 +16,5 @@ export const authClient = createAuthClient({
       },
     },
   },
+  plugin: [adminClient()],
 });
