@@ -20,7 +20,7 @@ export const useSignUpForm = () => {
   const onSubmit = async (data: signUpFormSchema) => {
     try {
       const { error, data: authResponseData } = await authClient.signUp.email({
-        name: data.email,
+        name: data.name,
         email: data.email,
         password: data.password,
       });
